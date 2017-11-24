@@ -17,7 +17,7 @@ function arrayOfProdNeg(){
       //turn the multiplication into a string to evaluate if it's a palindrome
       let thisString = ""+mult;
       //Here we evaluate if the multiplication is a palindrome and if its larger than the previous palindrome.
-      //If it's a larger palindrome, we store it in the 'largest variable'.
+      //If it's a larger palindrome, we store it in the 'largest' variable.
       if(isPalindrome(thisString)&&(mult>largest)){
           largest=mult;
       }
